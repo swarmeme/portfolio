@@ -44,10 +44,10 @@ function Highlights({ sectionRef }: HighlightsProps) {
         What I do
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-10">
+      <div className="grid gap-10 md:grid-cols-6">
 
         {/* CARD 1 */}
-        <div className="group relative">
+        <div className="group relative md:col-span-2">
 
           <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-purple-500/30 via-fuchsia-400/20 to-indigo-400/30 blur-2xl opacity-40 group-hover:opacity-80 transition duration-700" />
 
@@ -68,7 +68,28 @@ function Highlights({ sectionRef }: HighlightsProps) {
         </div>
 
         {/* CARD 2 */}
-        <div className="group relative">
+        <div className="group relative md:col-span-2">
+
+          <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400/30 via-blue-400/20 to-violet-500/30 blur-2xl opacity-40 group-hover:opacity-80 transition duration-700" />
+
+          <div className="relative h-full rounded-3xl border border-white/10 bg-white/[0.05] backdrop-blur-2xl p-8 shadow-[0_0_40px_rgba(255,255,255,0.06)] transition duration-500 group-hover:-translate-y-4 group-hover:border-cyan-300/30">
+
+            <h3 className="text-2xl font-semibold mb-6 text-center">
+              Mobile App Architecture
+            </h3>
+
+            <p className="text-zinc-300 leading-relaxed text-center">
+              Architecting cross-platform React Native applications around the
+              needs of clients and their users—combining role-based access,
+              real-time communication, secure sessions, and server-enforced
+              Firebase permissions into a foundation that can scale.
+            </p>
+
+          </div>
+        </div>
+
+        {/* CARD 3 */}
+        <div className="group relative md:col-span-2">
 
           <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400/30 via-blue-400/20 to-indigo-500/30 blur-2xl opacity-40 group-hover:opacity-80 transition duration-700" />
 
@@ -88,8 +109,29 @@ function Highlights({ sectionRef }: HighlightsProps) {
           </div>
         </div>
 
-        {/* CARD 3 */}
-        <div className="group relative">
+        {/* CARD 4 */}
+        <div className="group relative md:col-span-2 md:col-start-2">
+
+          <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-fuchsia-500/30 via-violet-400/20 to-cyan-400/30 blur-2xl opacity-40 group-hover:opacity-80 transition duration-700" />
+
+          <div className="relative h-full rounded-3xl border border-white/10 bg-white/[0.05] backdrop-blur-2xl p-8 shadow-[0_0_40px_rgba(255,255,255,0.06)] transition duration-500 group-hover:-translate-y-4 group-hover:border-fuchsia-300/30">
+
+            <h3 className="text-2xl font-semibold mb-6 text-center">
+              Practical Product Engineering
+            </h3>
+
+            <p className="text-zinc-300 leading-relaxed text-center">
+              Designing an approachable attendance product for small businesses
+              that need more than paper registers—not a heavyweight HRMS. The
+              experience prioritizes easy daily use for non-technical employees,
+              with dependable attendance workflows and geolocation-aware check-ins.
+            </p>
+
+          </div>
+        </div>
+
+        {/* CARD 5 */}
+        <div className="group relative md:col-span-2 md:col-start-4">
 
           <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-pink-500/30 via-fuchsia-400/20 to-rose-400/30 blur-2xl opacity-40 group-hover:opacity-80 transition duration-700" />
 

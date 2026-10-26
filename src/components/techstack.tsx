@@ -241,6 +241,73 @@ function TechStack() {
         </div>
 
       </div>
+
+      {/* CURRENT WORK */}
+      <div className="mt-16">
+        <p className="text-center text-sm font-medium uppercase tracking-[0.24em] text-cyan-200/80">
+          Currently Building
+        </p>
+
+        <div className="group relative mt-6 max-w-5xl mx-auto">
+          <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-cyan-400/20 via-violet-500/20 to-fuchsia-400/20 blur-2xl opacity-50 transition duration-700 group-hover:opacity-90" />
+
+          <div className="relative rounded-3xl border border-white/10 bg-gradient-to-br from-cyan-500/[0.10] via-white/[0.03] to-violet-500/[0.10] p-8 md:p-10 backdrop-blur-2xl shadow-[0_0_40px_rgba(34,211,238,0.08)] transition duration-500 group-hover:-translate-y-1 group-hover:border-cyan-300/30">
+            <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+              <div>
+                <h3 className="text-2xl font-semibold text-white md:text-3xl">
+                  Cross-Platform Coaching &amp; Messaging App
+                </h3>
+                <p className="mt-2 text-cyan-100">
+                  Freelance project · React Native, Expo, TypeScript &amp; Firebase
+                </p>
+              </div>
+
+              <span className="w-fit rounded-full border border-cyan-200/20 bg-cyan-200/10 px-3 py-1 text-sm text-cyan-100">
+                In progress
+              </span>
+            </div>
+
+            <p className="mt-6 text-lg leading-relaxed text-zinc-300">
+              Building a cross-platform mobile application for a fitness coaching
+              business. Architected role-based access for admins, coaches, and
+              clients; real-time group chat with file sharing; secure email
+              authentication with live session control; and server-enforced
+              Firestore security rules—delivering a production-ready experience
+              across iOS, Android, and web.
+            </p>
+          </div>
+        </div>
+
+        <div className="group relative mt-6 max-w-5xl mx-auto">
+          <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-violet-400/20 via-fuchsia-500/20 to-cyan-400/20 blur-2xl opacity-50 transition duration-700 group-hover:opacity-90" />
+
+          <div className="relative rounded-3xl border border-white/10 bg-gradient-to-br from-violet-500/[0.10] via-white/[0.03] to-fuchsia-500/[0.10] p-8 md:p-10 backdrop-blur-2xl shadow-[0_0_40px_rgba(139,92,246,0.08)] transition duration-500 group-hover:-translate-y-1 group-hover:border-violet-300/30">
+            <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+              <div>
+                <h3 className="text-2xl font-semibold text-white md:text-3xl">
+                  Lightweight Attendance System
+                </h3>
+                <p className="mt-2 text-violet-100">
+                  Personal product · React, TypeScript, FastAPI &amp; PostgreSQL
+                </p>
+              </div>
+
+              <span className="w-fit rounded-full border border-violet-200/20 bg-violet-200/10 px-3 py-1 text-sm text-violet-100">
+                In progress
+              </span>
+            </div>
+
+            <p className="mt-6 text-lg leading-relaxed text-zinc-300">
+              Building a lightweight attendance system for small businesses that
+              still rely on paper registers and manual month-end attendance
+              tracking. The product will deliver a simple Progressive Web App
+              experience, backed by a secure Python API and a reliable relational
+              data layer.
+            </p>
+
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
